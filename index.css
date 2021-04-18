@@ -1,0 +1,625 @@
+
+body{
+text-align: center;
+margin: 0;
+}
+.container{
+
+    height: 768px;
+
+  text-align: center;
+  z-index:-1;
+}
+.background{
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+  height: 768px;
+
+align-items: center;
+  z-index:-1;
+}
+.nav-container{
+  background: rgba(255, 255, 255, 0.4);
+  z-index:1;
+  position: relative;
+top: -772px;
+  height: 60px;
+
+}
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  height:60px;
+
+}
+
+nav ul{
+  display: flex;
+
+}
+
+.nav-items li{
+   list-style: none;
+   margin-right: 80px;
+}
+
+.nav-items li a{
+
+  position:relative;
+  left: 894px;
+  top: 12px;
+  font-family:‘Montserrat’, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+letter-spacing: -0.015em;
+color: #333333;
+text-decoration: none;
+}
+.submit{
+  position: relative;
+  width: 150px;
+height: 40px;
+right:0px;
+top: -13px;
+}
+
+.title{
+  position: absolute;
+width: 566.04px;
+height: 177.37px;
+left:580px;
+top: 67px;
+z-index: 1;
+}
+
+/* .content{
+  width:1366px;
+  position: absolute;
+  padding-left: 50%;
+} */
+.tri2{
+  position: absolute;
+width: 320px;
+height: 320px;
+left: 644px;
+top: 175px;
+z-index: 1;
+}
+
+.tri2overlay {
+  position: absolute;
+
+width: 100%;
+
+height: 100%;
+flex-direction: column;
+overflow: hidden;
+align-items: center;
+justify-content: center;
+transform: scale(0);
+top: -20px;
+left: 5px;
+display:flex;
+transition: .3s ease;
+z-index: 4;
+}
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.tri2:hover .tri2overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.s2 {
+position: absolute;
+display: flex;
+align-items: center;
+text-align: center;
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #5DA1E0;
+z-index: 6;
+margin-top: 50px;
+}
+
+
+.tri1{
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  left: 758px;
+  top: 155px;
+  z-index: 2;
+}
+
+
+
+.tri1overlay {
+  position: absolute;
+
+width: 100%;
+
+height: 100%;
+flex-direction: column;
+overflow: hidden;
+align-items: center;
+justify-content: center;
+transform: scale(0);
+top:0;
+left:0;
+display:flex;
+transition: .3s ease;
+z-index: 4;
+}
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.tri1:hover .tri1overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.s1 {
+position: absolute;
+display: flex;
+align-items: center;
+text-align: center;
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #5DA1E0;
+z-index: 3;
+margin-top: 50px;
+}
+
+.tri3{
+  position: absolute;
+width: 280px;
+height: 280px;
+left: 760px;
+top: 247px;
+z-index:3;
+}
+.tri3overlay {
+  position: absolute;
+
+width: 100%;
+
+height: 100%;
+flex-direction: column;
+overflow: hidden;
+align-items: center;
+justify-content: center;
+transform: scale(0);
+top: -22px;
+left: 4px;
+display:flex;
+transition: .3s ease;
+z-index: 4;
+}
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.tri3:hover .tri3overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.s3 {
+position: absolute;
+display: flex;
+align-items: center;
+text-align: center;
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #5DA1E0;
+z-index: 3;
+margin-top: 50px;
+}
+
+
+p{
+  position: absolute;
+/* width: 420px; */
+height: 124px;
+left: 50%;
+transform: translateX(-50%);
+top: 519px;
+
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Gray 1 */
+color: #333333;
+
+/* Gray 1 */
+
+}
+
+.a1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+/* width: 264px; */
+height: 35px;
+left: 50%;
+transform: translateX(-50%);
+top: 678px;
+color:#55116D;
+}
+.a1:hover{
+color: #794F88CC
+}
+/* .social-icons1 li{
+  display: inline-block;
+  margin: 30px 0;
+} */
+.social-icons{
+  position: absolute;
+width: 31px;
+height: 32px;
+right: 11%;
+top: 45%;
+margin-top: -60px;
+
+}
+header2{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  height:410px;
+
+}
+.content2{
+  position: absolute;
+  top: 768px;
+  width: 1366px;
+  height: 410px;
+  background-color: #F2F2F2;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+header2{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  height:410px;
+
+}
+.content3{
+  position: absolute;
+width: 1366px;
+height: 410px;
+left: 50%;
+transform: translateX(-50%);
+
+/* Gray 5 */
+background: #E0E0E0;
+}
+h1{
+  position: absolute;
+width: 247px;
+height: 37px;
+left: 50%;
+transform: translateX(-50%);
+top: 66px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+/* Gray 1 */
+color: #333333;
+}
+
+p1{
+  /* position: absolute; */
+/* width: 503px;
+height: 191px;
+left: 142px;
+top: 128px; */
+
+font-family:'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+text-align: left;
+/* column-count: 2; */
+
+/* Gray 1 */
+color: #333333;
+}
+span{
+  font-family:'Montserrat', sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+}
+section{
+  position: absolute;
+  column-count: 2;
+  column-gap: 5em;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 70px;
+  column-width: 503px;
+
+}
+button{
+  background-color: #828282;
+border-radius: 6px;
+border-width: 0px;
+text-align: center;
+ text-decoration: none;
+ display: inline-block;
+height: 40px;
+width: 150px:
+ font-family: 'Montserrat', sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 15px;
+ line-height: 18px;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: -0.015em;
+ color: #FFFFFF;
+}
+.button{
+text-decoration: none;
+ font-family: 'Montserrat', sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 15px;
+ line-height: 18px;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: -0.015em;
+ color: #FFFFFF;
+ transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #b9b8b8; /* Green */
+
+}
+p2{
+  position: absolute;
+width: 493px;
+height: 195px;
+left: 746px;
+top: 116px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+
+/* Gray 1 */
+color: #333333;
+
+}
+
+h2{
+  position: absolute;
+width: 148px;
+height: 37px;
+left: 50%;
+transform: translateX(-50%);
+top: 63px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+/* Gray 1 */
+color: #333333;
+}
+
+p3{
+
+
+position: absolute;
+height: 140px;
+left: 50%;
+transform: translateX(-50%);
+top: 129px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+/* Gray 1 */
+color: #333333;
+}
+
+p6{
+
+
+position: absolute;
+height: 140px;
+left: 50%;
+transform: translateX(-50%);
+top: 209px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+/* Gray 1 */
+color: #333333;
+}
+h3{
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+  top: 140px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+h4{
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+  top: 214px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+.content4{
+  position: absolute;
+width: 1366px;
+height: 250px;
+left: 50%;
+transform: translateX(-50%);
+top:1586px;
+background: rgba(199, 193, 214, 0.88);
+}
+
+p4{
+  position: absolute;
+width: 242px;
+height: 20px;
+left: 45px;
+top: 182px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Gray 1 */
+color: #333333;
+
+}
+p5{
+
+position: absolute;
+width: 276px;
+height: 44px;
+left: 1032px;
+top: 182px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: left;
+
+/* Gray 1 */
+color: #333333;
+}
+.social-icons2 li{
+  display: inline-block;
+  margin: 0 15px;
+}
+.social-icons2{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: -10px;
+top: 105px;
+list-style: none;
+margin-right: 20px;
+display: flex;
+flex-direction: row;
+
+}
+hr{
+  width: 94%;
+  align-items: center;
+  top: 170px;
+  text-align: center;
+  margin-top: 113px;
+  border-width: 0.5px;
+}
